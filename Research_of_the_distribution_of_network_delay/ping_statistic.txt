@@ -1002,4 +1002,4 @@ PING bki.forlabs.ru (104.27.134.234) 56(84) bytes of data.
 
 --- bki.forlabs.ru ping statistics ---
 1000 packets transmitted, 999 received, 0.1% packet loss, time 1009653ms
-rtt min/avg/max/mdev = 87.152/89.224/231.151/6.233 ms
+rtt min/avg/max/mdev = 87.152/89.224/231.151/6.233 ms 
