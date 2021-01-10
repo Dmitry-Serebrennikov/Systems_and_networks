@@ -1,0 +1,40 @@
+Please enter site details (URL or domain or IP) : http://androidmafia.ru/video/9LCDScNhrkg
+
+1. URL is banned!
+2. Domain is banned!
+3. IP is not banned
+
+Site is prohibited by Roskomnadzor
+---------------
+
+Please enter site details (URL or domain or IP) : new-rutor.in
+
+1. URL is not banned
+2. Domain is banned!
+3. IP is not banned
+
+Site is prohibited by Roskomnadzor
+---------------
+
+Please enter site details (URL or domain or IP) : 104.27.169.126
+
+1. URL is not banned
+2. Domain is not banned
+3. IP is banned!
+
+Site is prohibited by Roskomnadzor
+---------------
+
+Please enter site details (URL or domain or IP) : eais.rkn.gov.ru
+
+1. URL is not banned
+2. Domain is not banned
+3. IP is not banned
+---------------
+
+Please enter site details (URL or domain or IP) : qwertyuasdfgh
+
+Error! Data is incorrectly entered 
+1. URL is not banned
+2. Domain is not banned
+3. IP is not banned
