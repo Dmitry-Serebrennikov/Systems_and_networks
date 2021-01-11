@@ -1,0 +1,47 @@
+server {
+    listen 80;
+    server_name images.serebrennikov-dmitry.site;
+    root /usr/project;
+    index index.php index.html index.htm index.nginx-debian.html;
+
+    rewrite ^(.*)$ /index.php;
+
+    location / {
+        try_files /index.php =404;
+    }
+
+    location ~* \.php$ {
+        try_files /index.php = 404;
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+}
+
+server {
+    listen 80;
+    server_name 1.images.serebrennikov-dmitry.site;
+    root /usr/project/server1;
+    location / {
+         try_files $uri $uri/ =404;
+    }
+}
+
+server {
+     listen 80;
+     server_name 2.images.serebrennikov-dmitry.site;
+     root /usr/project/server2;
+     location / {
+         try_files $uri $uri/ =404;
+     }
+}
+server {
+    listen 80;
+    server_name 3.images.serebrennikov-dmitry.site;
+    root /usr/project/server3;
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
